@@ -1,0 +1,503 @@
+﻿.omt-header {
+    background-color: #32c5d2;
+    padding: 4px 7px;
+    display: flex;
+}
+
+    .omt-header .header-title {
+        font-size: 20px;
+        padding: 10px 10px;
+        color: white;
+    }
+
+    .omt-header .omt__icon {
+        font-size: 30px;
+        padding: 8px 10px;
+        color: white;
+    }
+
+.note1 {
+    color: gray;
+    font-size: 15px;
+}
+
+.icon {
+    color: gray;
+    font-size: 30px;
+    float: right;
+}
+
+.number1 {
+    font-size: 30px;
+    color: #17C4BB;
+}
+
+.dashboard {
+    margin-top: 50px;
+    background-color: #ffff;
+    width: 300px;
+    height: 80px;
+    border: 10px solid white;
+}
+
+.dashboard2 {
+    height: 30px;
+    width: 300px;
+    background-color: white;
+    font-size: 10px;
+    color: gray;
+    border: 10px solid white;
+}
+
+.note3 {
+    float: right;
+}
+
+.check1 {
+    height: 3px;
+    width: 280px;
+    background-color: #17C4BB;
+}
+
+.number2 {
+    font-size: 30px;
+    color: #F36A5A;
+}
+
+.check2 {
+    height: 3px;
+    width: 280px;
+    background-color: #8877A9;
+}
+
+.portlet {
+    height: auto;
+    width: 600px;
+    background-color: white;
+    border: 30px solid white;
+}
+
+.portlet_up {
+    color: black;
+    height: 50px;
+    width: 535px;
+}
+
+.check3 {
+    height: 3px;
+    width: 535px;
+    background-color: #9fc5c5;
+}
+
+.portlet_down {
+    margin-right: 50px;
+    height: 50px;
+    width: 535px;
+    background-color: #ff000024;
+    border: 1px solid #f1b2b2;
+}
+
+.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.note4 {
+    color: red;
+}
+/*---------------------thông báo---------------------------*/
+.table_notification {
+    background-color: white;
+    border-style: solid;
+    border-color: #58D3F7;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.table_text1 {
+    color: white;
+    background-color: #58D3F7;
+    width: 100%;
+    height: 50px;
+}
+
+table_text1 .h2 {
+    margin-left: 10px;
+}
+
+.bang2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.table_text2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.table_text3 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.dropdown_all {
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #customers tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    #customers tr:hover {
+        background-color: #ddd;
+    }
+
+    #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #5885f7;
+        color: white;
+    }
+
+.icon::before {
+    content: '\f2bb';
+    font-family: 'Font Awesome 5 Brands' font-weight:900;
+}
+
+
+.btn_datetime {
+    background-color: white;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 50px;
+    border: 1px solid #234c50cc;
+    color: #464040;
+}
+
+.row {
+    margin-right: -16px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.txt_search_code {
+    height: 50px;
+    margin-top: 10px;
+    width: 242px;
+    border-radius: 5px;
+    border: 1px solid #02362fc2;
+    margin-left: 10px;
+}
+
+.btn_search {
+    margin-top: 20px;
+    border: none;
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: greenyellow;
+}
+
+.btn_themhs {
+    margin-left: 20px;
+    margin-top: 14px;
+    background-color: #26a8da;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 231px;
+    height: 39px;
+}
+
+    .btn_themhs:hover {
+        width: 231px;
+        height: 39px;
+        box-shadow: 2px 2px 2px 2px #98a8fd;
+    }
+
+.note {
+    width: 1374px;
+    height: 83px;
+    background-color: #d6eefb;
+    color: red;
+}
+
+.note_thongbao {
+    width: 300px;
+    height: 40px;
+    background-color: #efef8e;
+    text-align: center;
+}
+
+.btn_file {
+    height: 50px;
+    margin-left: 10px;
+    width: 48px;
+    margin-top: 8px;
+    border: none;
+    background-color: #6094c7;
+}
+
+    .btn_file:hover {
+        height: 50px;
+        width: 48px;
+        box-shadow: 2px 2px 2px 2px #9fcaa6;
+    }
+
+.table_text4 {
+    height: 60px;
+    width: auto;
+    background-color: aquamarine;
+}
+
+.tb_txt_note {
+    height: 30px;
+    width: 300px;
+    padding-top: 5px;
+    background-color: #fddfa9;
+    color: red;
+}
+/*----------------diemdanh--------------------*/
+.menu_table_diemdanh {
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+    margin-top: 12px;
+    margin-left: 10px;
+    padding-top: 6px;
+    border: 1px solid #00000078;
+}
+
+.radio_box {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 10px;
+}
+
+    .radio_box label {
+        margin: 0;
+    }
+
+#check__dstb {
+    /* margin-top: 0px; */
+    /* color: #52b952; */
+    width: 29px;
+    height: 45px;
+    margin-right: 15px;
+}
+
+.radio {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    vertical-align: middle;
+    color: #ffff;
+}
+
+    .radio + .radio {
+        margin-left: 20px;
+    }
+
+    /*    .radio input[type='radio'] {
+        display: none;
+    }*/
+
+    .radio span {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: 3px solid #3b99ea;
+    }
+/*--------------------trang chu don xin nghi co content-----------------------*/
+.page_content {
+    display: inline-table;
+    width: 1276px;
+    height: 504px;
+    background-color: #4c88e6;
+}
+
+.page_content_drap {
+    color: red;
+    background-color: white;
+    height: 439px;
+    width: 1266px;
+    border: 21px solid white;
+    margin-left: 5px;
+    margin-top: 61px;
+}
+
+.btn_datetime_dienvao {
+    background-color: #ffffff;
+    border: 2px solid #00d9ff;
+    outline: none;
+    width: 170px;
+    height: 51px;
+    margin-right: 10px;
+}
+
+.text_dienvao {
+    color: red;
+    margin-top: 10px;
+}
+
+.radio_box_3 {
+    width: 100%;
+    height: 50px;
+}
+
+#check_t1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#check_t2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#check_t3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#check_t4 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#check_t5 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#check_t6 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#check_t7 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#check_t8 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#check_t9 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#check_lunch {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.radio_box_2 {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.btn_lydo_luu {
+    background-color: #34d8ca;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    width: 80px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+}
+
+.btn_lydo_dong {
+    background-color: #ffffff;
+    outline: none;
+    border: 2px solid #b9b0b057;
+    color: black;
+    width: 80px;
+    margin-bottom: 40px;
+}
+
+.txt_lydo {
+    margin-left: 20px;
+}
+
+.input_lydo {
+    width: 1000px;
+    height: 100px;
+}
+
+.txt_search_code_tenhs {
+    width: 300px;
+    height: 34px;
+    margin-top: 5px;
+}
+/*------------------------diem danh---------------------------------*/
+.btn_datetime_điemdanh {
+    width: 171px;
+    height: 48px;
+    border: 2px solid #1b4cff;
+    margin-top: 11px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.menu_table_diemdanh {
+    width: 93px;
+    padding-top: 10px;
+    font-size: 14px;
+    height: 47px;
+    border: 2px solid #3c7b7e;
+    font-weight: 800;
+    color: #0d606d;
+}
+
+.omt__icon2 {
+    font-size: 20px;
+    color: white;
+}
+/*-----------------------quan li thong bao-------------------------*/
+.txt_search_dstg {
+    width: 300px;
+    height: 40px;
+    margin-left: 800px;
+    margin-top: 5px;
+}
+
+.btn_search_dstg {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: 1px solid #004bfb;
+    background-color: #695eff;
+}
+
+    .btn_search_dstg:hover {
+        box-shadow: 2px 2px 4px 2px #359aa094;
+    }

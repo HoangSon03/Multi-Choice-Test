@@ -1,0 +1,33 @@
+﻿
+body,body.body-LT {
+    background: #ffe2a6 !important;
+}
+span.number-of-sentences, .title-exercise .exercise-munber-2 {
+    background: rgb(247, 148, 28);
+    color: white;
+}
+.container-numbers-2.container-numbers-2 p, .title-exercise .exercise-text-2 {
+    background: rgb(255, 217, 114);
+    color: black;
+    padding: 5px;
+    --heigh--: auto;
+    height: var(--heigh--);
+    text-align: center;
+    line-height: var(--heigh--);
+    border-radius: 8px;
+    margin-right: 4px;
+    font-size: 23px;
+    font-weight: 400;
+    min-width: 0;
+}
+.fa.fa-volume-up {
+    color: rgb(254, 137 ,38);
+}
+
+
+.footer-bottom i {
+    font-size: 4.7rem;
+}
+.blank-space {
+    margin-top: 30px;
+}

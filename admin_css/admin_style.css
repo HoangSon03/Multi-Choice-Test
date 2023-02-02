@@ -1,0 +1,7 @@
+﻿.btn-tcpopup {
+    float: right;
+    position: fixed;
+    top: 18%;
+    right: 6%;
+    z-index: 10;
+}

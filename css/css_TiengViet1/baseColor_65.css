@@ -1,0 +1,23 @@
+﻿body {
+    background:#0759c05c;
+}
+
+header .overlay {
+    background-image: linear-gradient(90deg, rgba(0,137,207,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.content-part span {
+    color: rgb(0, 114, 187);
+}
+
+.title-bt {
+    background: rgb(0, 137, 207);
+}
+
+.sentences .sentences-text {
+   background: rgb(0, 114, 187);
+}
+
+.sentences .sentences-number {
+    background: rgb(254,240,4);
+}

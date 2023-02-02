@@ -1,0 +1,319 @@
+@media (min-width:768px) and (max-width:991.98px) {
+    .slide-body__inner .row-reverse {
+        flex-direction: column-reverse;
+    }
+    .hidden-m {
+        display: none;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199.98px) {
+    .hidden-l {
+        display: none;
+    }
+    #login-user a, .menu__link {
+        font-size: 1.8rem;
+        white-space: nowrap;
+    }
+    .slide-body__inner {
+        top: 26%;
+    }
+    .discount-slide__item img {
+        height: 447px;
+    }
+    .board__gif {
+        top: -100px;
+        left: 66%;
+        width: 166px;
+    }
+    .slide {
+        height: 47vh;
+    }
+    .hello__img {
+        top: 71%;
+        left: 62%;
+    }
+    .heading__authen {
+        max-width: 54%;
+    }
+    .nav-link__challenge {
+        padding: 3.5rem 7.9rem;
+        font-size: 1.8rem;
+    }
+    .title__challenge {
+        z-index: 0;
+        left: 24.6%;
+    }
+    .title__challenge span {
+        font-size: 4rem;
+        pointer-events: none;
+    }
+    .coin__heading {
+        top: 1.5%;
+        left: 15%;
+    }
+    .coin__cat-left {
+        top: 41px;
+        left: 5px;
+        width: 13rem;
+    }
+    .coin__cat-right {
+        width: 17rem;
+        top: 21px;
+        right: -5px;
+    }
+    .coin__gift {
+        top: 27%;
+        left: 9px;
+        width: 27rem;
+    }
+    .coin__fly {
+        top: 31%;
+        left: 5%;
+        width: 19rem;
+    }
+    .col--fix:last-child .desk__challenge {
+        display: none;
+    }
+    .col--fix.col-lg-3 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .toggle {
+        display: none;
+    }
+    /* .col-lg-none {
+        display: none;
+    } */
+}
+
+@media (max-width:1023px) {
+    .menu__icon {
+        display: block;
+    }
+    .menu__list {
+        display: none;
+    }
+}
+
+@media (min-width:1366px) and (max-width:1440px) {
+    .discount {
+        width: 470px;
+        height: 470px;
+        /* position: absolute; */
+        margin: 0 auto;
+        z-index: 1;
+        /* top: 117px; */
+        /* left: 50px; */
+        /* background-repeat: no-repeat; */
+        /* background-position: center; */
+        /* background-size: cover; */
+        /* padding: 20px 33px; */
+        /* background-color: #ff7979; */
+        /* border-radius: 15px; */
+    }
+    .section__coin .heading__authen {
+        margin: 0 auto;
+    }
+    .hello__img {
+        left: 47%;
+        bottom: -100px;
+    }
+    .heading__authen {
+        font-size: 4rem;
+    }
+    .coin__heading {
+        top: 4.5%;
+    }
+    .coin__heading img {
+        top: -4.5rem;
+    }
+    .board-btn .btn {
+        font-size: 3rem;
+        width: 117px;
+        height: 77px;
+    }
+    .btn--lop {
+        width: 117px;
+        height: 77px;
+        font-size: 4rem;
+    }
+    .coin__gift {
+        position: absolute;
+        top: 24%;
+        left: -5px;
+        width: 41rem;
+    }
+    /* #login-user a, .menu__link {
+        font-size: 2rem;
+    } */
+    .coin__fly {
+        position: absolute;
+        top: 17%;
+        left: 9%;
+        z-index: 2;
+        width: 17rem;
+    }
+}
+
+@media (min-width:1441px) {
+    .hello__img {
+        left: 47%;
+        width: 35rem;
+    }
+    .heading__authen {
+        font-size: 4.5rem;
+    }
+    .coin__gift {
+        position: absolute;
+        top: 26%;
+        left: 25px;
+        width: 40rem;
+    }
+    .coin__heading {
+        top: -2%;
+    }
+    .coin__street-nine span, .coin__street-eight span, .coin__street-seven span, .coin__street-six span, .coin__street-five span, .coin__street-four span, .coin__street-three span, .coin__street-two span, .coin__street-one span {
+        font-size: 2rem;
+    }
+    .coin__street-one:before {
+        top: -12%;
+        left: -10%;
+    }
+    .coin__street-two:before {
+        top: -17%;
+        left: 79%;
+    }
+    .coin__street-three:before {
+        top: -37%;
+        left: -6%;
+    }
+    .coin__street-four:before {
+        top: 85%;
+        left: -6%;
+    }
+    .coin__street-four {
+        top: 54%;
+        left: 35%;
+    }
+    .coin__street-five:before {
+        top: 84%;
+        left: -1%;
+    }
+    .coin__street-five {
+        top: 25%;
+        left: 49%;
+    }
+    .coin__street-six:before {
+        top: 77%;
+        left: 17%;
+    }
+    .coin__street-six {
+        top: 7%;
+        left: 43%;
+    }
+    .coin__stadium {
+        width: 25rem;
+        left: 57%;
+        top: 25%;
+    }
+    .coin__street-seven:before {
+        top: -9%;
+        left: -13%;
+    }
+    .coin__street-seven {
+        top: 19%;
+        left: 77%;
+    }
+    .coin__street-eight {
+        top: 48%;
+        left: 70%;
+    }
+    .coin__street-nine:before {
+        top: -6%;
+        left: 34%;
+    }
+    .coin__street-nine:after {
+        top: 65%;
+        left: 96%;
+    }
+    .coin__street-nine {
+        top: 66%;
+        left: 59%;
+    }
+    .coin__school {
+        width: 14rem;
+        left: 86%;
+        top: 12%;
+    }
+    .coin__street-eight span {
+        top: -15%;
+        left: 95%;
+        width: 50%;
+    }
+    .coin__end {
+        width: 11rem;
+        bottom: 10%;
+        right: 0;
+    }
+    .coin__hospital {
+        top: 27%;
+        left: 39%;
+    }
+    .coin__police {
+        width: 15rem;
+        top: 25%;
+        left: 7%;
+    }
+    .coin__funny {
+        width: 12rem;
+        top: 58%;
+        left: 5%;
+    }
+    .coin__tree {
+        width: 17rem;
+        left: 45%;
+        bottom: 0;
+    }
+    .coin__player {
+        width: 11rem;
+        top: 57%;
+        left: 23%;
+    }
+    .coin__couple {
+        width: 10rem;
+        right: 18%;
+        bottom: 34%;
+    }
+    .coin__fly {
+        top: 28%;
+        left: 8%;
+    }
+}
+
+@media screen and (max-width: 1920px) and (min-width:1366px) {
+    #login-user a, .menu__link {
+        font-size: 2.1rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .toggle {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1920px) and (min-width:1600px) {
+    #login-user a, .menu__link {
+        font-size: 2.1rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .coin__gift {
+        position: absolute;
+        top: 25%;
+        left: 75px;
+        width: 42rem;
+    }
+}

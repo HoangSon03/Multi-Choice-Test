@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsKeHoachDayHoc" targetNamespace="http://tempuri.org/dsKeHoachDayHoc.xsd" xmlns:mstns="http://tempuri.org/dsKeHoachDayHoc.xsd" xmlns="http://tempuri.org/dsKeHoachDayHoc.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsKeHoachDayHoc" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsKeHoachDayHoc" msprop:Generator_UserDSName="dsKeHoachDayHoc">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbQuanTri_kehoachdayhoc" msprop:Generator_TableClassName="tbQuanTri_kehoachdayhocDataTable" msprop:Generator_TableVarName="tabletbQuanTri_kehoachdayhoc" msprop:Generator_RowChangedName="tbQuanTri_kehoachdayhocRowChanged" msprop:Generator_TablePropName="tbQuanTri_kehoachdayhoc" msprop:Generator_RowDeletingName="tbQuanTri_kehoachdayhocRowDeleting" msprop:Generator_RowChangingName="tbQuanTri_kehoachdayhocRowChanging" msprop:Generator_RowEvHandlerName="tbQuanTri_kehoachdayhocRowChangeEventHandler" msprop:Generator_RowDeletedName="tbQuanTri_kehoachdayhocRowDeleted" msprop:Generator_RowClassName="tbQuanTri_kehoachdayhocRow" msprop:Generator_UserTableName="tbQuanTri_kehoachdayhoc" msprop:Generator_RowEvArgName="tbQuanTri_kehoachdayhocRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kehoachdayhoc_id" msprop:Generator_ColumnVarNameInTable="columnkehoachdayhoc_id" msprop:Generator_ColumnPropNameInRow="kehoachdayhoc_id" msprop:Generator_ColumnPropNameInTable="kehoachdayhoc_idColumn" msprop:Generator_UserColumnName="kehoachdayhoc_id" type="xs:string" minOccurs="0" />
+              <xs:element name="kehoachdayhoc_mon" msprop:Generator_ColumnVarNameInTable="columnkehoachdayhoc_mon" msprop:Generator_ColumnPropNameInRow="kehoachdayhoc_mon" msprop:Generator_ColumnPropNameInTable="kehoachdayhoc_monColumn" msprop:Generator_UserColumnName="kehoachdayhoc_mon" type="xs:string" minOccurs="0" />
+              <xs:element name="kehoachdayhoc_lop" msprop:Generator_ColumnVarNameInTable="columnkehoachdayhoc_lop" msprop:Generator_ColumnPropNameInRow="kehoachdayhoc_lop" msprop:Generator_ColumnPropNameInTable="kehoachdayhoc_lopColumn" msprop:Generator_UserColumnName="kehoachdayhoc_lop" type="xs:string" minOccurs="0" />
+              <xs:element name="kehoachdayhoc_noidung" msprop:Generator_ColumnVarNameInTable="columnkehoachdayhoc_noidung" msprop:Generator_ColumnPropNameInRow="kehoachdayhoc_noidung" msprop:Generator_ColumnPropNameInTable="kehoachdayhoc_noidungColumn" msprop:Generator_UserColumnName="kehoachdayhoc_noidung" type="xs:string" minOccurs="0" />
+              <xs:element name="kehoachdayhoc_tuan" msprop:Generator_ColumnVarNameInTable="columnkehoachdayhoc_tuan" msprop:Generator_ColumnPropNameInRow="kehoachdayhoc_tuan" msprop:Generator_ColumnPropNameInTable="kehoachdayhoc_tuanColumn" msprop:Generator_UserColumnName="kehoachdayhoc_tuan" type="xs:string" minOccurs="0" />
+              <xs:element name="kehoachdayhoc_tiet" msprop:Generator_ColumnVarNameInTable="columnkehoachdayhoc_tiet" msprop:Generator_ColumnPropNameInRow="kehoachdayhoc_tiet" msprop:Generator_ColumnPropNameInTable="kehoachdayhoc_tietColumn" msprop:Generator_UserColumnName="kehoachdayhoc_tiet" type="xs:string" minOccurs="0" />
+              <xs:element name="kehoachdayhoc_phanmon" msprop:Generator_ColumnVarNameInTable="columnkehoachdayhoc_phanmon" msprop:Generator_ColumnPropNameInRow="kehoachdayhoc_phanmon" msprop:Generator_ColumnPropNameInTable="kehoachdayhoc_phanmonColumn" msprop:Generator_UserColumnName="kehoachdayhoc_phanmon" type="xs:string" minOccurs="0" />
+              <xs:element name="kehoachdayhoc_tenbaihoc" msprop:Generator_ColumnVarNameInTable="columnkehoachdayhoc_tenbaihoc" msprop:Generator_ColumnPropNameInRow="kehoachdayhoc_tenbaihoc" msprop:Generator_ColumnPropNameInTable="kehoachdayhoc_tenbaihocColumn" msprop:Generator_UserColumnName="kehoachdayhoc_tenbaihoc" type="xs:string" minOccurs="0" />
+              <xs:element name="kehoachdayhoc_ghichu" msprop:Generator_ColumnVarNameInTable="columnkehoachdayhoc_ghichu" msprop:Generator_ColumnPropNameInRow="kehoachdayhoc_ghichu" msprop:Generator_ColumnPropNameInTable="kehoachdayhoc_ghichuColumn" msprop:Generator_UserColumnName="kehoachdayhoc_ghichu" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

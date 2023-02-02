@@ -1,0 +1,38 @@
+﻿body.body-LT {
+    background: rgb(198, 234, 250) !important;
+}
+
+
+span.number-of-sentences, .title-exercise span.exercise-munber-2 {
+    background: rgb(6, 169, 227);
+    color: white;
+}
+
+.container-numbers-2.container-numbers-2 p, .title-exercise span.exercise-text-2 {
+    background: rgb(198, 234, 250);
+    color: black;
+    padding: 5px;
+    --heigh--: auto;
+    height: var(--heigh--);
+    text-align: center;
+    line-height: var(--heigh--);
+    border-radius: 8px;
+    margin-right: 4px;
+    font-size: 23px;
+    font-weight: 400;
+    min-width: 0;
+}
+
+.fa.fa-volume-up {
+    color: #007bff;
+}
+
+
+.footer-bottom i {
+    font-size: 4.7rem;
+
+}
+.blank-space {
+    margin-top: 30px;
+}
+

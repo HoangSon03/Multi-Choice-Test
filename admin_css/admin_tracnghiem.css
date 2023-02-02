@@ -1,0 +1,137 @@
+﻿.note {
+    background: #d7dde4;
+    width: 100%;
+    height: 306px;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    z-index: 15;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    max-height: 100%;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.box__note {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid red;
+    transition: top 0.3s ease-in-out;
+    cursor: pointer;
+    z-index: 16;
+}
+
+.note__down {
+    font-size: 37px;
+    color: red;
+    z-index: 10;
+    animation-name: fadeIn;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.box__note.note-icon__translate {
+    top: 6%;
+    display: none;
+}
+
+.note.note__none {
+    max-height: 0;
+}
+
+p.note__text {
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 22px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+
+    25% {
+        opacity: 0;
+        transform: translateY(10px) scale(0.9);
+    }
+
+    26% {
+        opacity: 0;
+        transform: translateY(-10px) scale(0.9);
+    }
+
+    55% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+.sidebar {
+    background-color: #3a4651;
+    width: 270px;
+    padding-bottom: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: width 0.3s ease;
+    transition: width 0.3s ease;
+    z-index: 20;
+}
+
+#customize-menu {
+    -webkit-transition: width 0.3s ease;
+    transition: width 0.3s ease;
+}
+
+
+.icon-toggle__sidebar {
+    max-width: 100%;
+    width: 55px;
+    height: auto;
+    cursor: pointer;
+    transform: translate(27x,-20px);
+    transition: transform 0.3s ease-out;
+}
+
+.customize-menu__none {
+    display: none !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.app {
+/*    padding-left: 7px;*/
+}
+    .app.padding__unset {
+        padding-left: 225px;
+    }
+
+    .customize-menu__none,
+    .icon-toggle__none {
+        width: 0;
+    }
+
+.icon__tran {
+    transform: translateX(-30px);
+}
+
+
+/*.app__tran {
+   padding-left: 7px;
+}*/
+
+.header__tran {
+    left: 0;
+}

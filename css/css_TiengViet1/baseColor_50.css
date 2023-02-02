@@ -1,0 +1,22 @@
+﻿body {
+    background: rgb(247 148 29 / 35%);
+}
+
+header .overlay {
+    background-image: linear-gradient( 135deg, #f7941d 10%, #f7941d 100%);
+}
+
+.content-part span{
+    color: #ed9f0e;
+}
+
+.title-bt {
+    background: rgb(255, 139, 0);
+}
+.sentences .sentences-text {
+    background: rgb(255, 139, 0);
+}
+
+.sentences .sentences-number {
+    background: rgb(254 ,240 ,4);
+}

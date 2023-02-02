@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPhiDichVuTruong" targetNamespace="http://tempuri.org/dsPhiDichVuTruong.xsd" xmlns:mstns="http://tempuri.org/dsPhiDichVuTruong.xsd" xmlns="http://tempuri.org/dsPhiDichVuTruong.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPhiDichVuTruong" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsPhiDichVuTruong" msprop:Generator_UserDSName="dsPhiDichVuTruong">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtPhiDichVuTruong" msprop:Generator_TableClassName="dtPhiDichVuTruongDataTable" msprop:Generator_TableVarName="tabledtPhiDichVuTruong" msprop:Generator_RowChangedName="dtPhiDichVuTruongRowChanged" msprop:Generator_TablePropName="dtPhiDichVuTruong" msprop:Generator_RowDeletingName="dtPhiDichVuTruongRowDeleting" msprop:Generator_RowChangingName="dtPhiDichVuTruongRowChanging" msprop:Generator_RowEvHandlerName="dtPhiDichVuTruongRowChangeEventHandler" msprop:Generator_RowDeletedName="dtPhiDichVuTruongRowDeleted" msprop:Generator_RowClassName="dtPhiDichVuTruongRow" msprop:Generator_UserTableName="dtPhiDichVuTruong" msprop:Generator_RowEvArgName="dtPhiDichVuTruongRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="lop_name" msprop:Generator_ColumnVarNameInTable="columnlop_name" msprop:Generator_ColumnPropNameInRow="lop_name" msprop:Generator_ColumnPropNameInTable="lop_nameColumn" msprop:Generator_UserColumnName="lop_name" type="xs:string" minOccurs="0" />
+              <xs:element name="hocsinh_name" msprop:Generator_ColumnVarNameInTable="columnhocsinh_name" msprop:Generator_ColumnPropNameInRow="hocsinh_name" msprop:Generator_ColumnPropNameInTable="hocsinh_nameColumn" msprop:Generator_UserColumnName="hocsinh_name" type="xs:string" minOccurs="0" />
+              <xs:element name="dongphucdihoc" msprop:Generator_ColumnVarNameInTable="columndongphucdihoc" msprop:Generator_ColumnPropNameInRow="dongphucdihoc" msprop:Generator_ColumnPropNameInTable="dongphucdihocColumn" msprop:Generator_UserColumnName="dongphucdihoc" type="xs:string" minOccurs="0" />
+              <xs:element name="dongphuctheduc" msprop:Generator_ColumnVarNameInTable="columndongphuctheduc" msprop:Generator_ColumnPropNameInRow="dongphuctheduc" msprop:Generator_ColumnPropNameInTable="dongphuctheducColumn" msprop:Generator_UserColumnName="dongphuctheduc" type="xs:string" minOccurs="0" />
+              <xs:element name="phidichvu_bhyt_noidangky" msprop:Generator_ColumnVarNameInTable="columnphidichvu_bhyt_noidangky" msprop:Generator_ColumnPropNameInRow="phidichvu_bhyt_noidangky" msprop:Generator_ColumnPropNameInTable="phidichvu_bhyt_noidangkyColumn" msprop:Generator_UserColumnName="phidichvu_bhyt_noidangky" type="xs:string" minOccurs="0" />
+              <xs:element name="phidichvu_bhtn" msprop:Generator_ColumnVarNameInTable="columnphidichvu_bhtn" msprop:Generator_ColumnPropNameInRow="phidichvu_bhtn" msprop:Generator_ColumnPropNameInTable="phidichvu_bhtnColumn" msprop:Generator_UserColumnName="phidichvu_bhtn" type="xs:string" minOccurs="0" />
+              <xs:element name="phidichvu_ansangtaitruong" msprop:Generator_ColumnVarNameInTable="columnphidichvu_ansangtaitruong" msprop:Generator_ColumnPropNameInRow="phidichvu_ansangtaitruong" msprop:Generator_ColumnPropNameInTable="phidichvu_ansangtaitruongColumn" msprop:Generator_UserColumnName="phidichvu_ansangtaitruong" type="xs:string" minOccurs="0" />
+              <xs:element name="phidichvu_xeduadon" msprop:Generator_ColumnVarNameInTable="columnphidichvu_xeduadon" msprop:Generator_ColumnPropNameInRow="phidichvu_xeduadon" msprop:Generator_ColumnPropNameInTable="phidichvu_xeduadonColumn" msprop:Generator_UserColumnName="phidichvu_xeduadon" type="xs:string" minOccurs="0" />
+              <xs:element name="phidichvu_ghichu" msprop:Generator_ColumnVarNameInTable="columnphidichvu_ghichu" msprop:Generator_ColumnPropNameInRow="phidichvu_ghichu" msprop:Generator_ColumnPropNameInTable="phidichvu_ghichuColumn" msprop:Generator_UserColumnName="phidichvu_ghichu" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,137 @@
+:root {
+    --color-primary: #d63031;
+    --color-second: #ffad06;
+    --color-three: #48dbfb;
+    --color-black: #000000;
+    --margin-bottom: 27px;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+body::-webkit-scrollbar {
+    width: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#833ab4, #fd1d1d, #fcb045);
+    outline: 1px solid slategray;
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+p:empty {
+    display: none;
+}
+
+/*title Heading*/
+
+.wrap-main {
+    padding: 50px 0;
+}
+
+.wrap-main__heading {
+    text-align: center;
+    font-size: 4.6rem;
+    color: #dc3545;
+    margin-bottom: 7rem;
+    font-weight: 600;
+}
+
+.content__title {
+    display: flex;
+    align-items: center;
+    font-size: 2.8rem;
+    margin: 37px 0;
+}
+
+.heading__authen {
+    transition: all .2s;
+    max-width: 45%;
+    height: 15rem;
+    background-repeat: no-repeat;
+    margin: 6rem auto;
+}
+
+.section__newgame .heading__authen {
+    background-image: url('/assets/images/web_images/authen__title-01.png');
+}
+
+.section__challenge .heading__authen {
+    background-image: url('/assets/images/web_images/authen__title-02.png');
+}
+
+.section__coin .heading__authen {
+    background-image: url('/assets/images/web_images/authen__title-03.png');
+}
+
+.heading__authen:hover {
+    transform: skewY(5deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+/* end title */
+
+/* Background  V */
+
+.section__coin, .section__register, .section__newgame, .section__challenge {
+    position: relative;
+    min-height: 730px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 0;
+}
+
+.section__newgame {
+    padding: 3.5rem 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+input, select, button, textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

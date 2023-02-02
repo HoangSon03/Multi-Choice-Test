@@ -1,0 +1,52 @@
+﻿.all_war {
+    height: 3000px;
+    width: 100%;
+    background-color: white;
+}
+.background {
+    margin: 0;
+    padding: 0;
+    height: 3000px;
+    background-size: cover;
+}
+.frmInput {
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 2px dotted black;
+    flex: 1;
+    /*width: 50%;*/
+}
+.sdt_sendtn{
+    padding-left:5px;
+}
+.name {
+    color: #bc000d;
+    text-align: center;
+    font-size: 40px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnDangKy {
+    margin-top:50px;
+    color: white;
+    background-color: red;
+    margin-left: 40%;
+    height: 100px;
+    width: 200px;
+    transition: color 2s,
+}
+  #btnDangKy:hover {
+        background-color: white;
+        color: red;
+}
+.noidung {
+    border: 10px solid red;
+    padding: 20px;
+    box-shadow: 0 10px 15px;
+}

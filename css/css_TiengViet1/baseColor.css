@@ -1,0 +1,22 @@
+﻿body {
+    background: rgb(190 119 191 / 35%);
+}
+
+header .overlay {
+    background-image: linear-gradient( 135deg, #a2238e 10%, #a2238e 100%);
+}
+
+.sentences .sentences-text {
+    background: linear-gradient( 135deg, #a2238e 10%, #a2238e 100%);
+}
+
+    .sentences .sentences-text b {
+        color: var(--background-number--);
+    }
+.content-part span {
+    /* font-family: 'Dancing Script', cursive; */
+    color: #a2238e;
+}
+.title-bt {
+    background: #a2238e;
+}
